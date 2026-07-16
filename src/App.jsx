@@ -8,15 +8,16 @@ import Map from './components/Map'
 import Conditions from './components/Conditions'
 import Props from './components/Props'
 import Events from './components/Events'
+import Api from './components/Api'
 
 function App() {
   const [count, setCount] = useState(0)
-  //const obj = {
+  {/*const obj = {
 
-  //ram: "16GB",
-  //storage: "512GB"
+  ram: "16GB",
+  storage: "512GB"
 
-  //}
+  }
  const events = [
     "React Workshop",
     "API Integration Session",
@@ -36,19 +37,22 @@ function App() {
       )}
     </div>
   );
+  */}
 
 
-  
-    {/*<>
+   return (
+    <>
       <Name />
-      <Events />
-      {/* <Map /> 
+      <Api />
+      
+      {/*<Events />
+       <Map /> 
       <Conditions />
       <Props name="iphone-16" price={99000} color="black" data={obj} />
       <Props name="iphone-17" price={99000} color="golden" data={obj} />
-      <Props name="iphone-14" price={99000} color="blue" data={obj} /> 
-    </>*/}
-  
+      <Props name="iphone-14" price={99000} color="blue" data={obj} /> */}
+    </>
+   );
 }
 
 export default App
